@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Manrope');
+ 
+ *{
+    padding: 0;
+    margin: 0;
+    background-color: hsl(218, 23%, 16%);
+} 
+
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.advice-box{
+    height: 300px;
+    width: 300px;
+    background: fixed;
+    background-color: hsl(217, 19%, 24%);
+    display: block;
+    text-align: center;
+}
+
+#advice-p-tag{
+    color: hsl(193, 38%, 86%);
+    display: flex;
+    justify-content: center;
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 1.8em;
+}
+
+#footer{
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.attribution { 
+    font-size: 0.9em; 
+    text-align: center; 
+    color: hsl(193, 38%, 86%);;
+}
+
+.attribution a { 
+    color: hsl(193, 38%, 86%);
+}

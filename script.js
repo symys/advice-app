@@ -1,7 +1,7 @@
 "use strict";
 const APIUrl = "https://api.adviceslip.com/advice"
 
-const body = document.querySelector("body")
+const cardDiv = document.getElementById("advice-card")
 let adviceHolder;
 
 const initial = () => {
@@ -23,9 +23,10 @@ function passAdviceToHolder(newAdvice){
 }
 
 const enterancePage = (adviceHolder) => {
-    const enterance = document.createElement("h1")
+    const enterance = document.createElement("p")
+    enterance.id = "advice-p-tag"
     enterance.innerHTML = adviceHolder
-    body.appendChild(enterance)
+    cardDiv.appendChild(enterance)
 
 }
 
