@@ -14,21 +14,41 @@
 }
 
 .advice-box{
-    height: 300px;
-    width: 300px;
+    height:23vw;
+    width: 37vw;
     background: fixed;
     background-color: hsl(217, 19%, 24%);
     display: block;
     text-align: center;
+    border-radius: 20px;
 }
 
 #advice-p-tag{
     color: hsl(193, 38%, 86%);
-    display: flex;
-    justify-content: center;
+    width: 27vw;
+    /* display: flex; */
+    /* justify-content: center; */
     font-family: Manrope;
     font-weight: 800;
-    font-size: 1.8em;
+    font-size: 2.04vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+#advice-id-text{
+    letter-spacing: 3px;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    font-family: Manrope;
+    color: hsl(150, 100%, 66%);
+    font-size: 0.8vw;
+    font-weight: bold;
 }
 
 #footer{
