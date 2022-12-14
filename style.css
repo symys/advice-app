@@ -1,69 +1,135 @@
-@import url('https://fonts.googleapis.com/css?family=Manrope');
- 
- *{
-    padding: 0;
-    margin: 0;
-    background-color: hsl(218, 23%, 16%);
-} 
+@import url("https://fonts.googleapis.com/css?family=Manrope");
 
-.container{
+* {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(218, 23%, 16%);
+}
+
+body {
+  max-width: 1440px;
+  width: 100%;
+}
+
+.container {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.advice-box {
+  height: 350px;
+  width: 440px;
+  background: fixed;
+  background-color: hsl(217, 19%, 24%);
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#advice-p-tag {
+  color: hsl(193, 38%, 86%);
+  width: 390px;
+  /* display: flex; */
+  /* justify-content: center; */
+  font-family: Manrope;
+  font-weight: 800;
+  font-size: 28px;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+}
+
+#advice-id-text {
+  letter-spacing: 3px;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  font-family: Manrope;
+  color: hsl(150, 100%, 66%);
+  font-size: 12px;
+  font-weight: bold;
+}
+
+img#desktop-divider {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 360px;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.attribution {
+  font-size: 0.9em;
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+}
+
+.attribution a {
+  color: hsl(193, 38%, 86%);
+}
+
+@media (max-width: 375px) {
+  .container {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.advice-box{
-    height:23vw;
-    width: 37vw;
-    background: fixed;
-    background-color: hsl(217, 19%, 24%);
-    display: block;
-    text-align: center;
-    border-radius: 20px;
-}
-
-#advice-p-tag{
-    color: hsl(193, 38%, 86%);
-    width: 27vw;
-    /* display: flex; */
-    /* justify-content: center; */
-    font-family: Manrope;
-    font-weight: 800;
-    font-size: 2.04vw;
-    position: fixed;
-    top: 50%;
+  }
+  img#desktop-divider {
+    position: absolute;
+    top: 80%;
     left: 50%;
+    width: 240px;
     transform: translate(-50%, -50%);
     background-color: transparent;
-}
-
-#advice-id-text{
+  }
+  #advice-id-text {
     letter-spacing: 3px;
     position: fixed;
-    top: 15%;
+    top: 17%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: transparent;
     font-family: Manrope;
     color: hsl(150, 100%, 66%);
-    font-size: 0.8vw;
+    font-size: 15px;
     font-weight: bold;
-}
-
-#footer{
-    position:fixed;
-    bottom: 0px;
-    width: 100%;
+  }
+  .advice-box {
+    height: 380px;
+    width: 270px;
+    background: fixed;
+    background-color: hsl(217, 19%, 24%);
+    display: block;
     text-align: center;
-}
-
-.attribution { 
-    font-size: 0.9em; 
-    text-align: center; 
-    color: hsl(193, 38%, 86%);;
-}
-
-.attribution a { 
+    border-radius: 20px;
+  }
+  #advice-p-tag {
     color: hsl(193, 38%, 86%);
+    width: 255px;
+    /* display: flex; */
+    /* justify-content: center; */
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+  }
 }
