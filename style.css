@@ -77,6 +77,11 @@ img#desktop-divider {
   transform: translate(-50%, -50%);
 }
 
+#advice-generator:hover{
+    box-shadow:  0 5px 25px hsl(150, 100%, 66%);
+    cursor: pointer;
+}
+
 #icon-dice {
   background-color: transparent;
   width: 35px;
@@ -84,7 +89,7 @@ img#desktop-divider {
 
 #footer {
   position: fixed;
-  bottom: 0px;
+  bottom: 10px;
   width: 100%;
   text-align: center;
 }
