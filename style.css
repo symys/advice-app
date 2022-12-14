@@ -89,13 +89,13 @@ img#desktop-divider {
 
 #footer {
   position: fixed;
-  bottom: 10px;
+  bottom: 5px;
   width: 100%;
   text-align: center;
 }
 
 .attribution {
-  font-size: 0.9em;
+  font-size: 0.70em;
   text-align: center;
   color: hsl(193, 38%, 86%);
 }
