@@ -1,6 +1,6 @@
 # Frontend Mentor - Advice generator app
 
-![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
+![./design/desktop-preview.jpg](https://github.com/symys/advice-app/blob/main/images/advice.gif)
 
 ## Welcome! 👋
 
